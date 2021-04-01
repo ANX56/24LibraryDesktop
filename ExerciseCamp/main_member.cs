@@ -43,5 +43,17 @@ namespace ExerciseCamp
             i.Show();
             this.Hide();
         }
+
+        private void findBookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            find_book i = new find_book();
+            i.Show();
+        }
+
+        private void transactionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            borrow i = new borrow();
+            i.Show();
+        }
     }
 }

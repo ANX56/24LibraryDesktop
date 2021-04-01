@@ -42,9 +42,11 @@ namespace ExerciseCamp
         {
             try
             {
+                Open();
                 DataSet ds = new DataSet();
                 MySqlDataAdapter da = new MySqlDataAdapter(sql, conn);
                 da.Fill(ds, "result");
+                Close();
                 return ds;
             }
             catch (Exception ex)

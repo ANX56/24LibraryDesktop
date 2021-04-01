@@ -9,5 +9,12 @@ namespace ExerciseCamp
     public static class session
     {
         public static string UserID, Email, Password, Role;
+        public static void clearSession()
+        {
+            UserID = "";
+            Email = "";
+            Password = "";
+            Role = "";
+        }
     }
 }

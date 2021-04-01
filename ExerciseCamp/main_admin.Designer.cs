@@ -59,7 +59,7 @@
             this.reportToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(734, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1264, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -113,6 +113,7 @@
             this.bookToolStripMenuItem.Name = "bookToolStripMenuItem";
             this.bookToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
             this.bookToolStripMenuItem.Text = "Book";
+            this.bookToolStripMenuItem.Click += new System.EventHandler(this.bookToolStripMenuItem_Click);
             // 
             // transactionToolStripMenuItem
             // 
@@ -128,12 +129,14 @@
             this.depositPaymentToolStripMenuItem.Name = "depositPaymentToolStripMenuItem";
             this.depositPaymentToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.depositPaymentToolStripMenuItem.Text = "Deposit Payment";
+            this.depositPaymentToolStripMenuItem.Click += new System.EventHandler(this.depositPaymentToolStripMenuItem_Click);
             // 
             // returnBookToolStripMenuItem
             // 
             this.returnBookToolStripMenuItem.Name = "returnBookToolStripMenuItem";
             this.returnBookToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.returnBookToolStripMenuItem.Text = "Return Book";
+            this.returnBookToolStripMenuItem.Click += new System.EventHandler(this.returnBookToolStripMenuItem_Click);
             // 
             // reportToolStripMenuItem
             // 
@@ -148,6 +151,7 @@
             this.allTransactionToolStripMenuItem.Name = "allTransactionToolStripMenuItem";
             this.allTransactionToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.allTransactionToolStripMenuItem.Text = "All Transaction";
+            this.allTransactionToolStripMenuItem.Click += new System.EventHandler(this.allTransactionToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
@@ -156,9 +160,9 @@
             this.toolStripProgressBar1,
             this.lblDate,
             this.lblTime});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 437);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 705);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(734, 24);
+            this.statusStrip1.Size = new System.Drawing.Size(1264, 24);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -192,7 +196,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(734, 461);
+            this.ClientSize = new System.Drawing.Size(1264, 729);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;

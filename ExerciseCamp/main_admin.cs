@@ -43,5 +43,28 @@ namespace ExerciseCamp
             i.Show();
             this.Hide();
         }
+
+        private void bookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            master_book i = new master_book();
+            i.Show();
+        }
+
+        private void depositPaymentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            deposit_payment i = new deposit_payment();
+            i.Show();
+        }
+
+        private void returnBookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            @return i = new @return();
+            i.Show();
+        }
+
+        private void allTransactionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
